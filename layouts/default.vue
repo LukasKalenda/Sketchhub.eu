@@ -70,7 +70,7 @@
                 class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8"
               >
               <a
-                to="#king-george"
+                href="#king-george"
                 class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
                 >King George V</a
               >
@@ -108,7 +108,7 @@
 
             <NuxtLink
               to="/kontakt"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 "
               aria-label="Reddit"
             >
               Kontakt

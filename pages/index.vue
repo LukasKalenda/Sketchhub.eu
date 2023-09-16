@@ -22,9 +22,9 @@
               </p>
 
               <button
-                class="w-full px-5 py-2 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-purple-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
+                class="w-full px-5 p-3 mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-purple-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
               >
-                <NuxtLink to="/kontakt"> Kontakt </NuxtLink>
+                <NuxtLink to="/kontakt">Kontakt</NuxtLink>
               </button>
             </div>
           </div>
@@ -45,7 +45,7 @@
     <!-- HMS King George V -->
     <section class="" id="king-george">
       <h2
-        class="text-center text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl"
+        class="text-center text-3xl font-semibold text-cyan-300 lg:text-4xl"
         id="kurzy"
       >
         HMS King George V
@@ -105,13 +105,13 @@
     <!-- HMS Ark Royal -->
     <section class="" id="ark-royal">
       <h2
-        class="text-center text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl"
+        class="text-center text-3xl font-semibold text-cyan-300 lg:text-4xl"
         id="kurzy"
       >
         HMS Ark Royal
       </h2>
-      <div class="container mx-auto p-10">
-        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/dLmEzHozhc9WbTkwPa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/christchurchsu-now-coming-soon-up-dLmEzHozhc9WbTkwPa">via GIPHY</a></p>
+      <div class="container mx-auto p-10 m-5">
+        <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/dLmEzHozhc9WbTkwPa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
       </div>
     </section>
   </div>

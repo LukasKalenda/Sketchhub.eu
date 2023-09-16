@@ -51,15 +51,13 @@
         HMS King George V
       </h2>
       <div class="container mx-auto">
-        <div
-          class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2"
-        >
-          <img
-            class="lg:max-w-sm"
-            src="/img/king_george.png"
-            alt="World Network Ilustration"
-          />
-        </div>
+        <div class="w-full lg:w-1/2 mt-6 lg:mt-0 flex justify-center items-center">
+        <img
+          class="w-3/4 h-auto max-w-3xl lg:w-full lg:h-auto lg:max-w-5xl"
+          src="/img/king_george.png"
+          alt="HMS King George V"
+        />
+      </div>
       </div>
     </section>
 

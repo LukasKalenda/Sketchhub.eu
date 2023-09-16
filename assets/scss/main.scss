@@ -7,11 +7,38 @@ $button-2: #B23CFD;
 $white: #FFFFFF;
 $form-field: #ABAAAA;
 
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Poppins&family=Roboto&family=Zilla+Slab:wght@500&display=swap');
+
 body {
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
     background-color: #0D1239;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+p {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+a {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 500;
 }
 .disabled-link {
     cursor: not-allowed;
-    text-decoration:underline;
-    color: #d82424; /* Volitelně: změňte barvu textu na šedou nebo podle potřeby */
-  }
+    text-decoration: underline;
+    color: #d82424;
+    /* Volitelně: změňte barvu textu na šedou nebo podle potřeby */
+}

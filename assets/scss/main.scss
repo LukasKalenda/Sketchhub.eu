@@ -10,3 +10,8 @@ $form-field: #ABAAAA;
 body {
     background-color: #0D1239;
 }
+.disabled-link {
+    cursor: not-allowed;
+    text-decoration:underline;
+    color: #d82424; /* Volitelně: změňte barvu textu na šedou nebo podle potřeby */
+  }

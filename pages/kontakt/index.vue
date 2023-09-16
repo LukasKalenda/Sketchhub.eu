@@ -31,8 +31,11 @@
               </svg>
 
               <span class="mx-2 text-white truncate w-72"
-                >info@sketchub.eu</span
+                >kalenda.lu.2020@skola.ssps.cz</span
               >
+              <!-- <span class="mx-2 text-white truncate w-72"
+                >info@sketchub.eu</span
+              > -->
             </p>
           </div>
 
@@ -66,7 +69,7 @@
                 </svg>
               </a>
 
-              <a
+              <!-- <a
                 class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
                 href="#"
               >
@@ -81,7 +84,7 @@
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -137,10 +140,10 @@
               </div>
 
               <button
-                class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                class="disabled-link w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
                 type="submit"
               >
-                Odeslat
+                Momentálně mimo provoz
               </button>
             </form>
           </div>

@@ -97,7 +97,7 @@
               Kontaktní formulář
             </h1>
 
-            <form class="mt-4" action="odeslat.php" method="POST" data-netlify="true">
+            <form class="mt-4" name="contact" action="/success" method="POST" data-netlify="true">
               <div class="flex-1">
                 <label
                   class="block mb-2 text-sm text-gray-600 dark:text-gray-200"
@@ -140,10 +140,10 @@
               </div>
 
               <button
-                class="disabled-link w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
+                class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
                 type="submit"
               >
-                Momentálně mimo provoz
+                Odeslat!
               </button>
             </form>
           </div>

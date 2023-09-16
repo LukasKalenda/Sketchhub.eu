@@ -97,9 +97,18 @@
               Kontaktní formulář
             </h1>
 
-            <form class="mt-4" name="contact" action="/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form
+              class="mt-4"
+              name="contact"
+              action="/success"
+              method="POST"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+              onSubmit="submit"
+            >
               <div class="flex-1">
                 <label
+                  for="name"
                   class="block mb-2 text-sm text-gray-600 dark:text-gray-200"
                   >Vaše jméno</label
                 >
@@ -114,6 +123,7 @@
 
               <div class="flex-1 mt-6">
                 <label
+                  for="inputEmail"
                   class="block mb-2 text-sm text-gray-600 dark:text-gray-200"
                   >E-mail adresa</label
                 >
@@ -128,6 +138,7 @@
 
               <div class="w-full mt-6">
                 <label
+                  for="message"
                   class="block mb-2 text-sm text-gray-600 dark:text-gray-200"
                   >Zpráva pro nás</label
                 >

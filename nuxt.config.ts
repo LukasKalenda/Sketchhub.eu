@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'Portál studentských projektů,3D modely, 3D tisk, plastické modely, diorámata' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'theme-color', content: '#000000' },
+        { name: 'theme-color', content: '#fff' },
   
       ]
     }
@@ -17,5 +17,5 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
-  css: ["~/assets/css/main.css"],
+  css: ['~/assets/scss/main.scss'],
 })

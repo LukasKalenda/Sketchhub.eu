@@ -19,8 +19,8 @@ export default defineNuxtConfig({
     'nuxt-gtag',
   ],
 
-  // gtag: {
-  //   id: 'G-FXGDW39ZEV'
-  // },
+  gtag: {
+    id: 'G-FXGDW39ZEV'
+  },
   css: ['~/assets/scss/main.scss'],
 })

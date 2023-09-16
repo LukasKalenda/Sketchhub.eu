@@ -112,6 +112,7 @@
                   >Vaše jméno</label
                 >
                 <input
+                  id="name"
                   type="text"
                   placeholder="František Kovář"
                   class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -119,8 +120,8 @@
                   required
                 />
               </div>
-              
-              <input type="hidden" name="form-name" value="contact">
+
+              <input type="hidden" name="contact" value="contact" />
               <div class="flex-1 mt-6">
                 <label
                   for="inputEmail"
@@ -128,6 +129,7 @@
                   >E-mail adresa</label
                 >
                 <input
+                  id="inputEmail"
                   type="email"
                   placeholder="franta.kovar@email.cz"
                   class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -143,6 +145,7 @@
                   >Zpráva pro nás</label
                 >
                 <textarea
+                  id="message"
                   class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                   placeholder="Právě vidím Vaši loď a za..."
                   name="message"
@@ -150,7 +153,6 @@
                 ></textarea>
               </div>
 
-              
               <div data-netlify-recaptcha="true"></div>
               <button
                 class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"

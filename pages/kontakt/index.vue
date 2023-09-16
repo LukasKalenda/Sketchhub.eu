@@ -97,7 +97,7 @@
               Kontaktní formulář
             </h1>
 
-            <form
+            <!-- <form
               class="mt-4"
               name="contact"
               action="/success"
@@ -120,7 +120,7 @@
                   required
                 />
               </div>
-              <!-- Hidden bar -->
+              
               <input type="hidden" name="form-name" value="contact">
               <div class="flex-1 mt-6">
                 <label
@@ -151,7 +151,7 @@
                 ></textarea>
               </div>
 
-              <!-- Recaptha -->
+              
               <div data-netlify-recaptcha="true"></div>
               <button
                 class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
@@ -159,6 +159,30 @@
               >
                 Odeslat!
               </button>
+            </form> -->
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label
+                  >Your Role:
+                  <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label
+                >
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <input type="hidden" name="form-name" value="contact" />
+              <p>
+                <button type="submit">Send</button>
+              </p>
             </form>
           </div>
         </div>

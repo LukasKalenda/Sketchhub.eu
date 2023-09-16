@@ -102,8 +102,8 @@
               name="contact"
               action="/success"
               method="POST"
-              data-netlify-recaptcha="true"
               data-netlify="true"
+              data-netlify-recaptcha="true"
               onSubmit="submit"
             >
               <div class="flex-1">
@@ -120,7 +120,8 @@
                   required
                 />
               </div>
-
+              <!-- Hidden bar -->
+              <input type="hidden" name="form-name" value="contact">
               <div class="flex-1 mt-6">
                 <label
                   for="inputEmail"

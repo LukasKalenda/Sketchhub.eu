@@ -97,7 +97,7 @@
               Kontaktní formulář
             </h1>
 
-            <form class="mt-4" action="odeslat.php" method="post">
+            <form class="mt-4" action="odeslat.php" method="POST" data-netlify="true">
               <div class="flex-1">
                 <label
                   class="block mb-2 text-sm text-gray-600 dark:text-gray-200"

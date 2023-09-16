@@ -15,7 +15,12 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-gtag',
   ],
+
+  // gtag: {
+  //   id: 'G-FXGDW39ZEV'
+  // },
   css: ['~/assets/scss/main.scss'],
 })

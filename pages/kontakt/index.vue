@@ -31,7 +31,7 @@
               </svg>
 
               <span class="mx-2 text-white truncate w-72"
-                >kalenda.lu.2020@skola.ssps.cz</span
+                >info@sketchub.eu</span
               >
               <!-- <span class="mx-2 text-white truncate w-72"
                 >info@sketchub.eu</span

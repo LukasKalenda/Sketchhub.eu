@@ -98,26 +98,28 @@
           </a>
 
           <div class="flex flex-wrap justify-center mt-6 -mx-4">
-            <a
-              href="#"
+            <NuxtLink
+              to="/"
               class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              aria-label="Reddit"
             >
               Domovská stránka
-            </a>
+            </NuxtLink>
 
             <NuxtLink
               to="/kontakt"
               class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 "
-              aria-label="Reddit"
             >
               Kontakt
             </NuxtLink>
-
+            <NuxtLink
+              to="/nas-tym"
+              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 "
+            >
+              Náš tým
+            </NuxtLink>
             <a
               href="#king-george"
               class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              aria-label="Reddit"
             >
               King George V
             </a>
@@ -125,7 +127,6 @@
             <a
               href="#ark-royal"
               class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
-              aria-label="Reddit"
             >
               Ark Royal
             </a>

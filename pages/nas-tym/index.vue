@@ -122,7 +122,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="/img/team/3076.jpg"
+                src="~/img/team/3076.jpg"
                 alt=""
               />
 
@@ -209,7 +209,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="/img/team/3077.jpg"
+                src="~/img/team/3077.jpg"
                 alt=""
               />
 
@@ -296,7 +296,7 @@
             <div class="flex flex-col sm:-mx-4 sm:flex-row">
               <img
                 class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
-                src="/img/team/undraw_male_avatar.svg"
+                src="~/img/team/undraw_male_avatar.svg"
                 alt=""
               />
 

@@ -144,9 +144,8 @@
             <p
               class="mt-4 text-gray-500 dark:text-gray-300 group-hover:text-gray-300"
             >
-              V tomto projektu se zaměřuji zejména na grafickou stránku celého
-              projektu. Podílím na tvorbě webové stránky, která slouží jako
-              prezentace celého projektu.
+              V tomto projektu se zaměřuji zejména na grafickou stránku a organizaci. Podílím na tvorbě webové stránky, která slouží jako
+              prezentace a doplnění naší práce.
             </p>
 
             <div class="flex mt-4 -mx-2">
@@ -233,7 +232,7 @@
             >
               Zaměřuji se na zpracování modelů z internetu a jejich převedení do
               3D programu. Zabývám se také historickým vývojem, který je dodávan
-              jako kontekxt k našim modelům.
+              jako kontext k našim modelům.
             </p>
 
             <div class="flex mt-4 -mx-2">

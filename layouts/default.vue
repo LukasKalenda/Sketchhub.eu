@@ -22,7 +22,11 @@
                   aria-label="toggle menu"
                 >
                   <svg
-                    x-show="!isOpen"
+                    :class="[
+                      isOpen
+                        ? 'hidden'
+                        : 'block',
+                    ]"
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-6 h-6"
                     fill="none"
@@ -38,7 +42,11 @@
                   </svg>
 
                   <svg
-                    x-show="isOpen"
+                  :class="[
+                      isOpen
+                        ? 'block'
+                        : 'hidden',
+                    ]"
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-6 h-6"
                     fill="none"
@@ -64,16 +72,16 @@
                   ? 'translate-x-0 opacity-100'
                   : 'opacity-0 -translate-x-full',
               ]"
-              class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center"
+              class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-primary_white shadow dark:bg-gray-400 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center"
             >
               <div
                 class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8"
               >
-              <a
-                href="#king-george"
-                class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
-                >King George V</a
-              >
+                <a
+                  href="#king-george"
+                  class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >King George V</a
+                >
                 <a
                   href="#ark-royal"
                   class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -107,13 +115,13 @@
 
             <NuxtLink
               to="/kontakt"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 "
+              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
             >
               Kontakt
             </NuxtLink>
             <NuxtLink
               to="/nas-tym"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400 "
+              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
             >
               Náš tým
             </NuxtLink>

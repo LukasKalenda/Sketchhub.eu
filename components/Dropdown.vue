@@ -1,70 +1,44 @@
 <template>
-  <div x-data="{ isOpen: true }" class="relative inline-block">
-    <!-- Dropdown toggle button -->
-    <button
-      @click="isOpen = !isOpen"
-      class="relative z-10 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none"
-    >
-      <svg
-        class="w-5 h-5 text-gray-800 dark:text-white"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
+  <div class="">
+    <div class="dropdown inline-block relative">
+      <button
+        class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center"
       >
-        <path
-          fill-rule="evenodd"
-          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-          clip-rule="evenodd"
-        />
-      </svg>
-    </button>
-
-    <!-- Dropdown menu -->
-    <div
-      x-show="isOpen"
-      @click="isOpen = !isOpen"
-      x-transition:enter="transition ease-out duration-100"
-      x-transition:enter-start="opacity-0 scale-90"
-      x-transition:enter-end="opacity-100 scale-100"
-      x-transition:leave="transition ease-in duration-100"
-      x-transition:leave-start="opacity-100 scale-100"
-      x-transition:leave-end="opacity-0 scale-90"
-      class="absolute right-0 z-20 w-48 py-2 mt-2 origin-top-right bg-white rounded-md shadow-xl dark:bg-gray-800"
-    >
-      <a
-        href="#"
-        class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-      >
-        your profile
-      </a>
-      <a
-        href="#"
-        class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-      >
-        Your projects
-      </a>
-      <a
-        href="#"
-        class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-      >
-        Help
-      </a>
-      <a
-        href="#"
-        class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-      >
-        Settings
-      </a>
-      <a
-        href="#"
-        class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
-      >
-        Sign Out
-      </a>
+        <span class="mr-1">Projekty</span>
+        <svg
+          class="fill-current h-4 w-4"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+          />
+        </svg>
+      </button>
+      <ul class="dropdown-menu absolute hidden text-gray-700">
+        <li class="">
+          <NuxtLink
+            to="#king-george"
+            class="rounded-b bg-gray-200 hover:bg-gray-400 px-4 block whitespace-no-wrap"
+            >King George</NuxtLink
+          >
+        </li>
+        <li class="">
+          <NuxtLink
+            to="#ark-royal"
+            class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+            >Ark Royal</NuxtLink
+          >
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
-<script setup>
-const isOpen = ref(false);
-</script>
+<script setup></script>
+
+<style scoped>
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+</style>

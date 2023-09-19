@@ -22,11 +22,7 @@
                   aria-label="toggle menu"
                 >
                   <svg
-                    :class="[
-                      isOpen
-                        ? 'hidden'
-                        : 'block',
-                    ]"
+                    :class="[isOpen ? 'hidden' : 'block']"
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-6 h-6"
                     fill="none"
@@ -42,11 +38,7 @@
                   </svg>
 
                   <svg
-                  :class="[
-                      isOpen
-                        ? 'block'
-                        : 'hidden',
-                    ]"
+                    :class="[isOpen ? 'block' : 'hidden']"
                     xmlns="http://www.w3.org/2000/svg"
                     class="w-6 h-6"
                     fill="none"
@@ -75,18 +67,15 @@
               class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-primary_white shadow dark:bg-gray-400 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center"
             >
               <div
-                class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8"
+                class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8 sm:w-1/3"
               >
-                <a
-                  href="#king-george"
-                  class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
-                  >King George V</a
+                <button
+                  class="px-6 py-1 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
                 >
-                <a
-                  href="#ark-royal"
-                  class="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
-                  >Ark Royal</a
-                >
+                  <NuxtLink to="/kontakt">Kontakt</NuxtLink>
+                </button>
+
+                <Dropdown />
               </div>
             </div>
           </div>

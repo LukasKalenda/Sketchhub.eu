@@ -74,7 +74,6 @@
                 >
                   <NuxtLink to="/kontakt">Kontakt</NuxtLink>
                 </button>
-
                 <Dropdown />
               </div>
             </div>

@@ -1,8 +1,5 @@
 <template>
   <div>
-    <Head>
-      <Title>Sketchub.eu</Title>
-    </Head>
     <!-- Landing page -->
     <section class="">
       <div class="container px-6 py-16 mx-auto">
@@ -110,3 +107,14 @@
     </section>
   </div>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Sketchub.eu',
+  ogTitle: 'Sketchub.eu',
+  description: 'This site is about 3D models of historic battleships. We use Fusion 360 and Autodesk to create them.',
+  ogDescription: 'This site is about 3D models of historic battleships. We use Fusion 360 and Autodesk to create them.',
+})
+</script>
+
+D

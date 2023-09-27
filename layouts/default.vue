@@ -86,7 +86,7 @@
       <slot />
     </main>
 
-    <footer class="bg-gray-900 absolute inset-x-0">
+    <footer class="bg-gray-800 absolute inset-x-0">
       <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
           <a href="#">

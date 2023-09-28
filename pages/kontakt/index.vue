@@ -104,7 +104,7 @@
                 />
               </div>
 
-              <input type="hidden" name="contact" value="contact" />
+              <input type="hidden" name="form-name" value="contact" />
               <div class="flex-1 mt-6">
                 <label
                   for="inputEmail"

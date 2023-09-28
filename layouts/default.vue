@@ -3,7 +3,7 @@
     <header>
       <nav
         x-data="{ isOpen: false }"
-        class="relative bg-primary_white shadow dark:bg-primary_dark"
+        class="relative shadow bg-primary_dark"
       >
         <div class="container px-6 py-4 mx-auto">
           <div class="lg:flex lg:items-center lg:justify-between">
@@ -18,7 +18,7 @@
                   x-cloak
                   @click="isOpen = !isOpen"
                   type="button"
-                  class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
+                  class="text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400"
                   aria-label="toggle menu"
                 >
                   <svg
@@ -86,50 +86,50 @@
       <slot />
     </main>
 
-    <footer class="bg-gray-800 absolute inset-x-0">
+    <footer class="bg-primary_dark absolute inset-x-0">
       <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
           <a href="#">
-            <h2 class="text-gray-500 dark:text-gray-200">Sketchub</h2>
+            <h2 class="text-gray-200">Sketchub</h2>
           </a>
 
           <div class="flex flex-wrap justify-center mt-6 -mx-4">
             <NuxtLink
               to="/"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
               Domovská stránka
             </NuxtLink>
 
             <NuxtLink
               to="/kontakt"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
               Kontakt
             </NuxtLink>
             <NuxtLink
               to="/nas-tym"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
               Náš tým
             </NuxtLink>
             <a
               href="#king-george"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
               King George V
             </a>
 
             <a
               href="#ark-royal"
-              class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400"
+              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
               Ark Royal
             </a>
           </div>
         </div>
 
-        <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
+        <hr class="my-6 md:my-10 border-gray-700" />
 
         <div class="flex flex-col items-center sm:flex-row sm:justify-between">
           <p class="text-sm text-gray-500 dark:text-gray-300">
@@ -139,7 +139,7 @@
           <div class="flex -mx-2">
             <a
               href="#"
-              class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+              class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400"
               aria-label="Reddit"
             >
               <svg
@@ -156,7 +156,7 @@
 
             <a
               href="#"
-              class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+              class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400"
               aria-label="Facebook"
             >
               <svg
@@ -174,7 +174,7 @@
             <a
               href="https://github.com/LukasKalenda/Sketchub.eu"
               target="_blank"
-              class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+              class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400"
               aria-label="Github"
             >
               <svg

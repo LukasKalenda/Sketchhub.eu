@@ -86,7 +86,6 @@
               action="/success"
               method="POST"
               data-netlify="true"
-              data-netlify-recaptcha="true"
             >
               <div class="flex-1">
                 <label
@@ -135,8 +134,6 @@
                   required
                 ></textarea>
               </div>
-
-              <div data-netlify-recaptcha="true"></div>
               <button
                 class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50"
                 type="submit"

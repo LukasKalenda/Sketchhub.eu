@@ -3,19 +3,17 @@
     <!-- Landing page -->
     <section class="">
       <div class="container px-6 py-16 mx-auto">
-        <div class="items-center lg:flex">
+        <div class="sm:items-center lg:items-start lg:flex">
           <div class="w-full lg:w-1/2">
-            <div class="lg:max-w-lg">
+            <div class="lg:max-w-lg pt-4">
               <h1
                 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl"
               >
-                3D modely
+                Platforma pro modely
               </h1>
 
               <p class="mt-3 text-gray-600 dark:text-gray-400">
-                Tato stránka obsahuje projekty dvou studentů, <strong>Adama Hurta</strong> a
-                <strong>Lukáše Kalendy</strong>, kteří společně vytvářejí fyzické modely
-                bitevnich lodí.
+                Tato stránka obsahuje projekty tří studentů, kteří společně vytvářejí <strong>3D modely bitevních lodí</strong>, které následně jsou tištěny na 3D tiskárnách.
               </p>
             </div>
           </div>
@@ -24,7 +22,7 @@
             class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2"
           >
             <img
-              class="lg:max-w-sm"
+              class="max-h-1/3"
               src="/img/landing_chart.svg"
               alt="World Network Ilustration"
             />
@@ -42,7 +40,7 @@
         HMS King George V
       </h2>
       <div class="container mx-auto">
-        <div class="w-full lg:w-1/2 mt-6 lg:mt-0 flex justify-center items-center">
+        <div class="w-full  mt-6 lg:mt-0 flex justify-center items-center">
         <img
           class="w-3/4 h-auto max-w-3xl lg:w-full lg:h-auto lg:max-w-5xl"
           src="/img/king_george.png"

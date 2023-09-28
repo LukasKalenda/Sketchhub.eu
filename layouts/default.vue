@@ -67,7 +67,7 @@
               class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-primary_white shadow dark:bg-gray-400 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center"
             >
               <div
-                class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8 sm:w-1/3"
+                class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8 sm:w-1/3 gap-4"
               >
                 <button
                   class="px-6 py-1 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
@@ -95,13 +95,6 @@
 
           <div class="flex flex-wrap justify-center mt-6 -mx-4">
             <NuxtLink
-              to="/"
-              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
-            >
-              Domovská stránka
-            </NuxtLink>
-
-            <NuxtLink
               to="/kontakt"
               class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
@@ -112,6 +105,12 @@
               class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
             >
               Náš tým
+            </NuxtLink>
+            <NuxtLink
+              to="/faq"
+              class="mx-4 text-sm transition-colors duration-300 text-gray-300 hover:text-blue-400"
+            >
+              FAQ
             </NuxtLink>
             <a
               href="#king-george"

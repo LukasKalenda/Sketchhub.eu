@@ -75,7 +75,7 @@ export default {
         },
         {
           question: "Odkud berete nápady na modely?",
-          answer: "Nápady čerpáme různě z internetu, dokemtů atd. Snažíme se zachytit zajímavé modely z historie. Konstrukce modelů je většinou založena na nákresu, který je následně převeden do 3D prostoru. Někdy je nutné model upravit a zjednodušit, aby byl tisknutelný.",
+          answer: "Nápady čerpáme různě z internetu, historických videí atd. Snažíme se zachytit zajímavé modely z historie. Konstrukce modelů je většinou založena na nákresu, který je následně převeden do 3D prostoru. Někdy je nutné model upravit a zjednodušit, aby byl tisknutelný.",
           opened: false,
         },
         {
@@ -83,11 +83,11 @@ export default {
           answer: "Jistě, budeme moc rádi. Se zakázkami zatím nemáme zkušenosti, ale modely již vytvářet umíme, takže to nebude problém. Ozvěte se nám prosím na některých z kontaktů.",
           opened: false,
         },
-        {
-          question: "Zvládnu jako začátečník vytvořit model dle návodu?",
-          answer: "Určitě ano. Popisek je co nejblíže přiblížen začátečníkům a snažíme se v něm popsat vše potřebné, jelikož jsme i my začínali a kladli jsme si otázky a spoustu toho odkoukali.",
-          opened: false,
-        },
+        // {
+        //   question: "Zvládnu jako začátečník vytvořit model dle návodu?",
+        //   answer: "Určitě ano. Popisek je co nejblíže přiblížen začátečníkům a snažíme se v něm popsat vše potřebné, jelikož jsme i my začínali a kladli jsme si otázky a spoustu toho odkoukali.",
+        //   opened: false,
+        // },
       ],
     };
   },

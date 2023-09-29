@@ -50,7 +50,7 @@
       </div>
     </section>
 
-    <!-- O HMS King George V -->
+    <!-- About HMS King George V -->
     <section class="">
       <div class="container px-6 py-16 mx-auto">
         <div class="items-center lg:flex dark:bg-blue-800 p-6 rounded-lg">
@@ -99,6 +99,7 @@
       >
         HMS Ark Royal
       </h2>
+      <!-- HSM Ark Royal GIF -->
       <div class="container mx-auto p-10 m-5">
         <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/dLmEzHozhc9WbTkwPa" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
       </div>

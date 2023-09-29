@@ -1,5 +1,6 @@
 <template>
   <div class="layout">
+    <!-- Sketchub header -->
     <header>
       <nav
         x-data="{ isOpen: false }"
@@ -81,11 +82,12 @@
         </div>
       </nav>
     </header>
-    <!-- output the page content -->
-    <main>
+    <!-- output the main page content -->
+    <main class="scroll-smooth">
       <slot />
     </main>
 
+    <!-- Sketchub footer -->
     <footer class="bg-primary_dark absolute inset-x-0">
       <div class="container px-6 py-8 mx-auto">
         <div class="flex flex-col items-center text-center">
@@ -137,9 +139,10 @@
 
           <div class="flex -mx-2">
             <a
-              href="#"
+              href="https://discord.gg/P7F4ZQrmEQ"
+              target="_blank"
               class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400"
-              aria-label="Reddit"
+              aria-label="Discord"
             >
               <svg
                 class="w-5 h-5 fill-current"
@@ -192,6 +195,9 @@
       </div>
     </footer>
   </div>
+
+  <!-- End of document -->
+  <!-- JS FILES -->
 </template>
 
 <script setup lang="ts">
@@ -201,7 +207,7 @@ const toggleMenu = () => {
   isOpen.value = !isOpen.value;
 };
 
-// import DarkModeSwitcher from '~/components/DarkModeSwitcher.vue';
+console.log("Vítej na našem portálu Sketchub.eu. Díváš se na naše stránky pod pokličkou, proto ti prozradíme, že jsou dělaný v Nuxt.js, který je poháněn Vue.js. Pokud bys chtěl vědět víc, tak nás kontaktuj :).")
 </script>
 
 <style scoped>

@@ -1,4 +1,5 @@
 <template>
+  <!-- Frequently asked question (FAQ) -->
   <section class="bg-white dark:bg-gray-900">
     <div class="container max-w-4xl px-6 py-10 mx-auto">
       <h1
@@ -61,7 +62,7 @@ export default {
         {
           question: "Z čeho tisknete modely?",
           answer: "Modely jsou tištěny nejčastěji za využití technologie FDM. Ta využívá známé materiály PLA, PETG, ABS... Jedná se o běžně dostupnou technologii. Dále využíváme také Resin. Ten je vhodný pro složitější tisk, který vyžaduje větší přesnost a obsahuje záhyby, kam by se hlava běžné tiskárny nedostala.",
-          opened: false,
+          opened: true,
         },
         {
           question: "Jak modely vypadají po vytištění?",

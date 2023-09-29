@@ -3,7 +3,7 @@
       <Head>
         <Title>Odesláno! | Sketchub</Title>
       </Head>
-  
+      <!-- Succes page after valid sent of form -->
       <div>
         <div
           class="flex items-end justify-center pt-10 text-center sm:block sm:p-0 p-4"

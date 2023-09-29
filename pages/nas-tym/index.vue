@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Our stuff -->
     <section class="bg-white dark:bg-gray-900">
       <div
         class="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center"
@@ -116,6 +117,7 @@
         <div
           class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2"
         >
+        <!-- Lukáš -->
           <div
             class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent"
           >
@@ -201,7 +203,7 @@
               </a>
             </div>
           </div>
-
+          <!-- Adam -->
           <div
             class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent"
           >
@@ -288,7 +290,7 @@
               </a>
             </div>
           </div>
-
+          <!-- Michal -->
           <div
             class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent"
           >

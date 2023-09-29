@@ -1,4 +1,5 @@
 <template>
+  <!-- Dropdown navbar menu -->
   <div class="">
     <div class="dropdown inline-block relative">
       <button

@@ -1,10 +1,54 @@
-# Projekt
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
 
-Víteje na našem projektu zabývající se češtinou.
+const members = [
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Šimon Přerovský',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+    {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Lukáš Kalenda',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+]
 
-Jsme skupinka studentů, kteří se rozhodli, že připraví stránku, kde budou sepsány přehledně maturitní knihy.
+const editors = [
+  {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Jirka Paďour',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+    {
+    avatar: 'https://www.github.com/yyx990803.png',
+    name: 'Cteni jednoduše',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+]
+</script>
 
-Hlavní výhodou tohoto portálu je, že každý může vytvářet své vlastní rozbory. Pomocí šablony. 
-::: info
-Pro vytváření se stačí jen registrovat.
-:::
+# Náš pracovní tým
+
+Tvorba & správa stránek
+
+<VPTeamMembers size="small" :members="members" />
+---
+Tvorba obsahu
+<VPTeamMembers size="small" :members="editors" />

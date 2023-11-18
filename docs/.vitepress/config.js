@@ -1,34 +1,34 @@
 // .vitepress/config.js
 export default {
-  titleTemplate: ':title - Pomocný češtinář',
-  description: "Rozbory díla k maturitě a čeština pro střední školy",
+  titleTemplate: ':title - Sketchub',
+  description: "Portál pro 3D modely. Tvorba 3D modelů, tutoriály, návody, tipy a triky, zdroje a další.",
   lang: "cs-CZ",
   rewrites: {
     "packages/:pkg/src/(.*)": ":pkg/index.md",
   },
 
   themeConfig: {
-    logo: "/logo.svg",
-    siteTitle: "Pomocný češtinář",
+    logo: "/logo.png",
+    siteTitle: "Sketchub - 3D modely",
 
     nav: [
       { text: "Projekt", link: "/projekt" },
       { text: "Pro školy", link: "/pro-skoly" },
       { text: "Vytvořit rozbor", link: "/vytvorit-rozbor" },
       {
-        text: 'Čeština',
+        text: 'Výstupy',
         items: [
-          { text: 'Rozbory', link: '/rozbory/' },
-          { text: 'Literatura', link: '/literatura/' },
-          { text: 'Slohovky', link: '/slohovky/' }
+          { text: '1 - Náčrty', link: '/vystup-1/' },
+          { text: '2 - 3D Modely', link: '/vystup-2/' },
+          { text: '3 - Dioráma', link: '/vystup-3/' },
+          { text: '4 - Webová stránka', link: '/vystup-4/' },
+          { text: 'Finální práce', link: '/vystup-finalni/' }
         ]
       }
     ],
     // Anonymous
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-      { icon: "instagram", link: "/profil" },
-      // You can also add custom icons by passing SVG as string:
+      { icon: "github", link: "https://github.com/LukasKalenda/Sketchub.eu" },
     ],
     //Sidebar
     sidebar: {
@@ -93,8 +93,8 @@ export default {
 
     // Footer
     footer: {
-      message: "Vytvořeno s ❤️ pro studenty",
-      copyright: "Copyright © 2023 - pomocný češtinář",
+      message: "Tvorba 3D modelů",
+      copyright: "Copyright © 2023 - Sketchub.eu",
     },
   },
 };

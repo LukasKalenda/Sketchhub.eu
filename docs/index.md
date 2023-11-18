@@ -2,18 +2,18 @@
 layout: home
 
 hero:
-  name: Pomocný češtinář
+  name: Sketchub
   image:
-    src: /learning.svg
-    alt: Learning woman
-  tagline: Rozbory děl, literatura a vše k maturitě. Napište svůj vlastní rozbor.
+    src: /landing_chart.svg
+    alt: Landing chart boat
+  tagline: Jsme skupinka studentů, kteří tvoří 3D modely. Zabýváme se výhradně bitevními loděmi.
   actions:
     - theme: brand
-      text: Studovat
+      text: Modelovat
       link: /rozbory/
     - theme: alt
       text: Zjistit více
-      link: /projekt
+      link: https://github.com/LukasKalenda/Sketchub.eu
 
 features:
   - icon: 📚

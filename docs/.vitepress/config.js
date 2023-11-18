@@ -74,10 +74,7 @@ export default {
           text: "Tvorba modelu",
           collapsible: true,
           items: [
-            { text: "AutoCAD a náčrty", link: "/ark-royal/autocad" },
-            { text: "Fusion 360", link: "/ark-royal/fusion" },
-            { text: "Inventor", link: "/ark-royal/inventor" },
-            { text: "Filamenty", link: "/ark-royal/tvorba-modelu" },
+            { text: "Autodesk", link: "/ark-royal/autodesk" },
             { text: "Úprava modelu", link: "/ark-royal/uprava-modelu" },
           ],
         },

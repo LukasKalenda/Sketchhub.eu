@@ -35,9 +35,14 @@ const members = [
   },
 ]
 </script>
+# Projekt
 
-## Náš tvůrčí tým
+### Náš tvůrčí tým
 
+Jsme skupinka studentů, kteří se rozhodli spojit více druhů zájmů. Vzešlo z toho, že jsme spojili zálibu v historii a převedení jí do reality. 
+Z toho vzešla výroba **3D modelů**, zatím pouze tedy lodí.
+
+---
 Náš pracovní tým se pomalu začíná rozšiřovat o další členy, kteří se podílejí na vývoji projektu.
 
 <VPTeamMembers size="small" :members="members" />

@@ -10,22 +10,22 @@ hero:
   actions:
     - theme: brand
       text: Modelovat
-      link: /rozbory/
+      link: /ark-royal/
     - theme: alt
       text: Zjistit více
       link: https://github.com/LukasKalenda/Sketchub.eu
 
 features:
-  - icon: 📚
-    title: Rozbory děl
-    details: Veškerá potřebná díla k maturitě se vším důležitým.
-    link: /rozbory/
-  - icon: 💬
-    title: Literatura
-    details: Od středověku až po moderní světovou literaturu.
-    link: /literatura/
-  - icon: ✏️
-    title: Slohové práce
-    details: Texty a úvahy našich čtenářů.
-    link: /slohovky/
+  - icon: 🛥️
+    title: HMS King George V
+    details: Model vytisknutý na technologii FDM. Složený z 62 dílků.
+    link: /king-george-v/
+  - icon: 🚢
+    title: HMS Ark Royal
+    details: Model dělaný na zasazení do diorámatu vodní hladiny.
+    link: /ark-royal/
+  - icon: 🔜
+    title: Bismarck
+    details: "Model s ukázkou míry detailu a zpracování. V přípravě."
+    link: /
 ---

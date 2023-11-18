@@ -1,11 +1,15 @@
+---
+aside: false
+---
+
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
     avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Šimon Přerovský',
-    title: 'Creator',
+    name: 'Adam Hurt',
+    title: 'Modelování & Historie',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
@@ -14,19 +18,7 @@ const members = [
     {
     avatar: 'https://www.github.com/yyx990803.png',
     name: 'Lukáš Kalenda',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
-  },
-]
-
-const editors = [
-  {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Jirka Paďour',
-    title: 'Creator',
+    title: 'Grafika & 3D úpravy',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
@@ -34,8 +26,8 @@ const editors = [
   },
     {
     avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Cteni jednoduše',
-    title: 'Creator',
+    name: 'Michal Kruliš',
+    title: '3D modelování',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
@@ -44,11 +36,8 @@ const editors = [
 ]
 </script>
 
-# Náš pracovní tým
+## Náš tvůrčí tým
 
-Tvorba & správa stránek
+Náš pracovní tým se pomalu začíná rozšiřovat o další členy, kteří se podílejí na vývoji projektu.
 
 <VPTeamMembers size="small" :members="members" />
----
-Tvorba obsahu
-<VPTeamMembers size="small" :members="editors" />

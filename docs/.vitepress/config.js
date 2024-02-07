@@ -1,6 +1,6 @@
 // .vitepress/config.js
 export default {
-  titleTemplate: ":title - Sketchub",
+  titleTemplate: "Sketchub",
   description:
     "Portál pro 3D modely. Tvorba 3D modelů, tutoriály, návody, tipy a triky, zdroje a další.",
   lang: "cs-CZ",
@@ -20,8 +20,8 @@ export default {
         items: [
           { text: "1. Náčrty", link: "/vystup/1" },
           { text: "2. 3D Modely", link: "/vystup/2" },
-          { text: "3. Dioráma", link: "/vystup/3" },
-          { text: "4. Webová stránka", link: "/vystup/4" },
+          { text: "3. Webová stránka", link: "/vystup/3" },
+          { text: "4. Dioráma", link: "/vystup/4" },
           { text: "Finální práce", link: "/vystup/finalni" },
         ],
       },
@@ -52,7 +52,7 @@ export default {
           ],
         },
         {
-          text: "3.výstup - Dioráma",
+          text: "3.výstup - Webová stránka",
           collapsible: true,
           items: [
             { text: "Stařec a moře", link: "/introduction" },
@@ -60,7 +60,7 @@ export default {
           ],
         },
         {
-          text: "4.výstup - Webová stránka",
+          text: "4.výstup - Dioráma + krabice",
           collapsible: true,
           items: [
             { text: "Stařec a moře", link: "/introduction" },
@@ -68,6 +68,7 @@ export default {
           ],
         },
       ],
+      
       // is on `config` directory.
       "/ark-royal/": [
         {
@@ -116,9 +117,31 @@ export default {
           text: "Tvorba modelu",
           collapsible: true,
           items: [
-            { text: "AutoCAD a náčrty", link: "/ark-royal/autocad" },
-            { text: "Fusion 360", link: "/ark-royal/fusion" },
-            { text: "Filamenty", link: "/ark-royal/tvorba-modelu" },
+            { text: "AutoCAD a náčrty", link: "/king-george-v/autocad" },
+            { text: "Fusion 360", link: "/king-george-v/fusion" },
+          ],
+        },
+        {
+          text: "Elektronika",
+          collapsible: true,
+          items: [
+            { text: "Arduino", link: "/king-george-v/arduino" },
+          ],
+        },
+        {
+          text: "3D tisk",
+          collapsible: true,
+          items: [
+            { text: "Typ tisku", link: "/king-george-v/typ-tisku" },
+            { text: "Filament", link: "/king-george-v/filament" }
+          ],
+        },
+        {
+          text: "Shrnutí",
+          collapsible: true,
+          items: [
+            { text: "Statistiky", link: "/king-george-v/statistiky" },
+            { text: "Fotografie", link: "/king-george-v/fotografie" }
           ],
         },
       ],

@@ -7,31 +7,19 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/yyx990803.png',
+    avatar: 'https://gravatar.com/avatar/8539186a10b6591e71960f05b0b0c3b6?s=400&d=robohash&r=x',
     name: 'Adam Hurt',
     title: 'Modelování & Historie',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
   },
     {
-    avatar: 'https://www.github.com/yyx990803.png',
+    avatar: 'https://gravatar.com/avatar/b3e758193a3d4fd58ce539c9615394b2?s=200&d=robohash&r=x',
     name: 'Lukáš Kalenda',
     title: 'Grafika & 3D úpravy',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
   },
     {
-    avatar: 'https://www.github.com/yyx990803.png',
+    avatar: 'https://gravatar.com/avatar/09967dd2b3d2f28e04061d7c8edbcdf6?s=200&d=robohash&r=x',
     name: 'Michal Kruliš',
     title: '3D modelování',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
   },
 ]
 </script>

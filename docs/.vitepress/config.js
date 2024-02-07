@@ -83,16 +83,26 @@ export default {
           text: "3D tištění a úpravy",
           collapsible: true,
           items: [
+            { text: "Vybavení a pomůcky", link: "/ark-royal/vybaveni" },
             { text: "3D tisknutí", link: "/ark-royal/3d-tisk" },
             { text: "Natírání povrchu", link: "/ark-royal/natirani-povrchu" },
           ],
         },
         {
-          text: "Tvorba podložky",
+          text: "Výroba krabice a vodní hladiny",
           collapsible: true,
           items: [
-            { text: "Dřevěnný rámeček", link: "/ark-royal/drevenny-ramecek" },
+            { text: "Krabice", link: "/ark-royal/krabice" },
             { text: "Vodní hladina", link: "/ark-royal/vodni-hladina" },
+          ],
+        },
+        {
+          text: "Animace a video",
+          collapsible: true,
+          items: [
+            { text: "Animace 2D", link: "/ark-royal/animace-2D" },
+            { text: "Animace 3D", link: "/ark-royal/animace-3D" },
+            { text: "Střih videa", link: "/ark-royal/strih-videa" },
           ],
         },
         {
@@ -101,14 +111,6 @@ export default {
           items: [
             { text: "Statistiky", link: "/ark-royal/statistiky" },
             { text: "Ukázky", link: "/ark-royal/ukazky" },
-          ],
-        },
-        {
-          text: "Historie bitevní lodi",
-          collapsible: true,
-          items: [
-            { text: "Konstrukce", link: "/ark-royal/konstrukce" },
-            { text: "Bojové operace", link: "/ark-royal/bojove-operace" },
           ],
         },
       ],
@@ -129,7 +131,7 @@ export default {
           ],
         },
         {
-          text: "3D tisk",
+          text: "Fyzický model",
           collapsible: true,
           items: [
             { text: "Typ tisku", link: "/king-george-v/typ-tisku" },

@@ -15,14 +15,14 @@ export default {
     nav: [
       { text: "Projekt", link: "/projekt" },
       { text: "Nástroje", link: "/nastroje" },
+      { text: "Brožura", link: "/nastroje" },
       {
         text: "Výstupy",
         items: [
           { text: "1. Náčrty", link: "/vystup/1" },
           { text: "2. 3D Modely", link: "/vystup/2" },
-          { text: "3. Webová stránka", link: "/vystup/3" },
+          { text: "3. Brožura + Webová stránka", link: "/vystup/3" },
           { text: "4. Dioráma", link: "/vystup/4" },
-          { text: "Finální práce", link: "/vystup/finalni" },
         ],
       },
     ],
@@ -32,43 +32,6 @@ export default {
     ],
     //Sidebar
     sidebar: {
-      "/vystupy/": [
-        {
-          text: "1.výstup - Náčrty",
-          collapsible: true,
-          items: [
-            { text: "Důmyslný rytíř don Quijote", link: "/ark-royal/" },
-            { text: "Lakomec", link: "/ark-royal/one" },
-          ],
-        },
-        {
-          text: "2.výstup - 3D Modely",
-          collapsible: true,
-          items: [
-            { text: "Jáma a kyvadlo", link: "/introduction" },
-            { text: "Havran", link: "/getting-started" },
-            { text: "Quo vadis?", link: "/getting-started" },
-            { text: "Obraz Doriana graye", link: "/getting-started" },
-          ],
-        },
-        {
-          text: "3.výstup - Webová stránka",
-          collapsible: true,
-          items: [
-            { text: "Stařec a moře", link: "/introduction" },
-            { text: "Na západní frotně klid", link: "/getting-started" },
-          ],
-        },
-        {
-          text: "4.výstup - Dioráma + krabice",
-          collapsible: true,
-          items: [
-            { text: "Stařec a moře", link: "/introduction" },
-            { text: "Na západní frotně klid", link: "/getting-started" },
-          ],
-        },
-      ],
-      
       // is on `config` directory.
       "/ark-royal/": [
         {
@@ -77,6 +40,14 @@ export default {
           items: [
             { text: "Autodesk", link: "/ark-royal/autodesk" },
             { text: "Úprava modelu", link: "/ark-royal/uprava-modelu" },
+          ],
+        },
+        {
+          text: "HMS Legion",
+          collapsible: true,
+          items: [
+            { text: "Historie", link: "/ark-royal/hms-legion-historie" },
+            { text: "Modelování", link: "/ark-royal/hms-legion-modelovani" },
           ],
         },
         {
@@ -100,9 +71,9 @@ export default {
           text: "Animace a video",
           collapsible: true,
           items: [
-            { text: "Animace 2D", link: "/ark-royal/animace-2D" },
-            { text: "Animace 3D", link: "/ark-royal/animace-3D" },
-            { text: "Střih videa", link: "/ark-royal/strih-videa" },
+            { text: "Animace 2D", link: "/ark-royal/animace-video/animace-2D" },
+            { text: "Animace 3D", link: "/ark-royal/animace-video/animace-3D" },
+            { text: "Střih videa", link: "/ark-royal/animace-video/strih-videa"},
           ],
         },
         {

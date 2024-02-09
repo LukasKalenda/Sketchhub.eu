@@ -7,3 +7,9 @@ Během modelování bylo dále rozhodnuto zpracovat dvě různé verze modelu, f
 Samotné modelování nebylo nijak nestandardně náročné. Model jsme měli zhruba za dva měsíce kompletně, včetně oněch dvou verzí a detailů pro ně. K modelování jsme využívali především programy Fusion 360 a Inventor od AutoDesku a zejména na povrchové a materiální úpravy Blender. 
 
 Jakmile jsme měli fyzickou verzi hotovou, mohli jsme přejít k samotné výrobě. Zvolili jsme výrobu pomocí 3D tiskárny technologie FDM, to znamená, že tiskárna jede od spoda vrstvu po vrstvě až dosáhne nejvyššího bodu. Tento styl tisku byl pro nás ideální vzhledem k celkovému tvaru a měřítku lodi. Model jsme tiskli na celkem tři části a to dvě části samotného trupu s přistávací dráhou a jednu část zahrnoval velící můstek. Trup jsme rozdělili z důvodu nedostatku místa na podložce. Samotný tisk proběhl bez větších problémů a za zhruba 28 hodin jsme získali HMS Ark Royal tak ve fyzické podobě. 
+
+*Trup během modelování*
+![HMS Ark Royal Trup](../public/ark/trup.png)
+
+*Kulomet*
+![HMS Ark Royal Kulomet](../public/ark/vez.png)

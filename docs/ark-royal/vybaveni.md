@@ -8,5 +8,5 @@ K pomůckám budeme poté již jen slovně referovat, vše je k naleznutí v té
 
 Markdown | Less | Pretty
 --- | --- | ---
-*Still* | `renders` | **nicely**
+*Still* | `renders` | [Duck Duck Go](https://duckduckgo.com).
 1 | 2 | 3

@@ -1,0 +1,1 @@
+# Střih videa

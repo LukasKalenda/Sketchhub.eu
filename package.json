@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nuxt-app",
   "private": true,
   "scripts": {
@@ -17,5 +18,22 @@
   "dependencies": {
     "alpinejs": "^3.13.0",
     "sass": "^1.67.0"
+=======
+  "name": "sketcch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.27",
+    "vue": "^3.3.8"
+>>>>>>> fa91af43ba054ddb2b18f27a81b69c27b93d4fb4
   }
 }

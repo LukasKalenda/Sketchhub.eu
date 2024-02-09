@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
+# Sketchub.eu
+-_-
 ## Setup
 
 Make sure to install the dependencies:
@@ -47,22 +44,3 @@ pnpm run build
 # yarn
 yarn build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-=======
-# Sketchhub.eu
-This repository stores a website which at the beginning contains 2 printed modeling projects.
->>>>>>> 664cea4fc793e96468d2a9c1a62f35d6cb82bdc2

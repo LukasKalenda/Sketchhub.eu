@@ -25,10 +25,25 @@ const members = [
 </script>
 # Projekt
 
-### Náš tvůrčí tým
+## Náš tvůrčí tým
 
 Jsme skupinka studentů, kteří se rozhodli spojit více druhů zájmů. Vzešlo z toho, že jsme spojili zálibu v historii a převedení jí do reality. 
 Z toho vzešla výroba **3D modelů**, zatím pouze tedy lodí.
+
+## Začátky
+
+Tento projekt vznikl v první polovině roku 2022, kdy jsme si zapisovali povinný projekt. Shodli jsme se na společném tématu a začali tvořit. První práci můžete naleznou na odkaze [zde](/king-george-v/), byla jím HMS King George V.
+
+Tato loď nebyla úspěšně ukončena dle původních plánů, ale čestné místo na poličce ji náleží tak jako tak.
+
+**Další práce**
+
+Byla by škoda nevyužít předchozí zkušenosti a "rozdělanou práci", tak jsme se rozhodli pokračovat. Zadali jsme si nové zadání, které reflektovalo předchozí směr, kdy jsme dělali ryze fyzickou část.
+
+Nyní jsme sáhli po kombinaci, kdy využijeme i digitální model, který pro tisk stejně musel vzniknout.
+
+Přijali jsme pro tuto úlohu nového člena, Michala.
+Na stav práce se můžete podívat na následujícím odkaze [zde](/ark-royal/), jedná se již o dvě lodě.
 
 ---
 Náš pracovní tým se pomalu začíná rozšiřovat o další členy, kteří se podílejí na vývoji projektu.

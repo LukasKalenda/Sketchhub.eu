@@ -15,13 +15,13 @@ export default {
     nav: [
       { text: "Projekt", link: "/projekt" },
       { text: "Nástroje", link: "/nastroje" },
-      { text: "Brožura", link: "/nastroje" },
+      { text: "Brožura", link: "https://online.fliphtml5.com/kdtdd/zhvx/index.html" },
       {
         text: "Výstupy",
         items: [
           { text: "1. Náčrty", link: "/vystup/1" },
           { text: "2. 3D Modely", link: "/vystup/2" },
-          { text: "3. Brožura + Webová stránka", link: "/vystup/3" },
+          { text: "3. Brožura + Webovky", link: "/vystup/3" },
           { text: "4. Dioráma", link: "/vystup/4" },
         ],
       },

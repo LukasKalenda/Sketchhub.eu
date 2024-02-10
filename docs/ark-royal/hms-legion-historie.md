@@ -1,4 +1,4 @@
-## Historie torpédoborce
+# Historie torpédoborce
 
 HMS Legion byl torpédoborec třídy L Královského námořnictva. Do služby vstoupil během druhé světové války a měl za sebou krátkou, ale rušnou kariéru, sloužil v domovských vodách a ve Středozemním moři.
 

@@ -16,6 +16,7 @@ export default {
       { text: "Projekt", link: "/projekt" },
       { text: "Nástroje", link: "/nastroje" },
       { text: "Brožura", link: "https://online.fliphtml5.com/kdtdd/zhvx/index.html" },
+      { text: "Animace", link: "/" },
       {
         text: "Výstupy",
         items: [

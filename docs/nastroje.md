@@ -11,7 +11,7 @@ Adobe After Effects | 2D animace Ark Royal | ❌ | [Odkaz](https://www.adobe.com
 Adobe After Effects | 2D mapy Ark Royal | ❌ | [Odkaz](https://www.adobe.com/cz/products/photoshop.html)
 Blender | 3D vizualizace| ✅ | [Odkaz](https://www.blender.org/)
 Fusion 360 | 3D modelování | ❌ | [Odkaz](https://www.fusion360.cz/).
-AutoCAD Mechanical | 2D náčrty | ❌ | [Odkaz](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi1nd-6p6GEAxWwPAYAHd7kAtsYABACGgJ3cw&ase=2&gclid=CjwKCAiA2pyuBhBKEiwApLaIOyO_bWzqKrVKEA_U_mXxLFNj40ZubwgojCZ6MCPw_gQBRootZhjPghoC-_wQAvD_BwE&ohost=www.google.com&cid=CAESVuD2bt2pC5BDiL-cUwQJNejg9loWk_18xUr08CPRHIgKRC2UQ5zn21BBIzKdXyIrR5ytWskinPfaORas2k3ihMY7dRll_pUQVUwEg1RPiLjFlDfIx4Br&sig=AOD64_2ltc0JxUTwf8Bnvii2-2xWTn7vSg&q&nis=4&adurl&ved=2ahUKEwj3vNa6p6GEAxWo-AIHHZx0BNMQ0Qx6BAgFEAE).
+AutoCAD Mechanical | 2D náčrty | ❌ | [Odkaz](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi1nd-6p6GEAxWwPAYAHd7kAtsYABACGgJ3cw&ase=2&gclid=CjwKCAiA2pyuBhBKEiwApLaIOyO_bWzqKrVKEA_U_mXxLFNj40ZubwgojCZ6MCPw_gQBRootZhjPghoC-_wQAvD_BwE&ohost=www.google.com&cid=CAESVuD2bt2pC5BDiL-cUwQJNejg9loWk_18xUr08CPRHIgKRC2UQ5zn21BBIzKdXyIrR5ytWskinPfaORas2k3ihMY7dRll_pUQVUwEg1RPiLjFlDfIx4Br&sig=AOD64_2ltc0JxUTwf8Bnvii2-2xWTn7vSg&q&nis=4&adurl&ved=2ahUKEwj3vNa6p6GEAxWo-AIHHZx0BNMQ0Qx6BAgFEAE)
 Figma | Návrh designů | ✅ | [Odkaz](https://figma.com).
 
 ## Fyzické vybavení

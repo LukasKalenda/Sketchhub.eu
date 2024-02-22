@@ -13,11 +13,13 @@ Poté se přesuneme do části, která přímo zobrazuje samotný finální osud
 
 ## 2D část
 
-Pro vytvoření této první části byl použit vyhradně software Adobe After Effects & Photoshop. Samotná scéna se skládá z vícero objektů. Vrchní pohledy na lodě, letadla. Vlajky států nebo hlavně samotná mapa světa.
+Pro samotnou animaci jsme použili výhradně program Blender. Ten je volně dostupný a nabízel nám nepřeberné množství funkcí a možností, jak animaci zpracovat. Vzhledem k tomu, že pro všechny práce v tomto programu byla nová, respektive ta činnost co jsme v ní dělali, tak to šlo pomalu a často slepými uličkami.
 
-Tyto všechny objekty bylo nutno vložit na scénu a přidat jim své vlastnosti, jelikož tam jen tak nesedí, ale je to animace.
-Popis detailního postupu by byl strašně dlouhý, příprava na tuto část byla nejtěžší z celého projektu a zabrala velké množství času.
+Ve 2D části jsme si vytvořili mapu, na kterou jsme vložili naše lodě. Pomocí tzv *keyframes* jsme připravili sekvenci pohybů objektů a kamery, ze které byl poskládám výsledný záběr do videa.
 
-Jelikož se na pozadí nachází i mluvené slovo, animace musela korespondovat hlavně s tímto hlasem, což jsme také ladili.
+Části renderu se vůbec nepoužili, jelikož přesně neseděli s komentářem, který byl klíčový pro video.
 
-Ke konci animace nastává již jen přechod do 3D části, která je představena na další stránce.
+*Náhled do programu Blender*
+![Blender 2D mapa](../docs/public/ark/render.png)
+
+Vyrenderované záběry jsme potom spojili ze zbytkem.

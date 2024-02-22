@@ -16,7 +16,7 @@ export default {
       { text: "Projekt", link: "/projekt" },
       { text: "Nástroje", link: "/nastroje" },
       { text: "Brožura", link: "https://online.fliphtml5.com/kdtdd/zhvx/index.html" },
-      { text: "Animace", link: "/" },
+      { text: "Animace", link: "https://www.youtube.com/watch?v=3YP97cjQy48" },
       {
         text: "Výstupy",
         items: [
@@ -75,14 +75,6 @@ export default {
             { text: "Animace 2D", link: "/ark-royal/animace-video/animace-2D" },
             { text: "Animace 3D", link: "/ark-royal/animace-video/animace-3D" },
             { text: "Střih videa", link: "/ark-royal/animace-video/strih-videa"},
-          ],
-        },
-        {
-          text: "Kompletní model",
-          collapsible: true,
-          items: [
-            { text: "Statistiky", link: "/ark-royal/statistiky" },
-            { text: "Ukázky", link: "/ark-royal/ukazky" },
           ],
         },
       ],

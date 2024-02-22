@@ -20,6 +20,6 @@ Ve 2D části jsme si vytvořili mapu, na kterou jsme vložili naše lodě. Pomo
 Části renderu se vůbec nepoužili, jelikož přesně neseděli s komentářem, který byl klíčový pro video.
 
 *Náhled do programu Blender*
-![Blender 2D mapa](../docs/public/ark/render.png)
+![Blender 2D mapa]
 
 Vyrenderované záběry jsme potom spojili ze zbytkem.
